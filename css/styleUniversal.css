@@ -1,0 +1,135 @@
+/*------------------------------------Body-----------------------------------*/
+
+* {
+    background: #1f1f1f;
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+/*----------------------------------Universal---------------------------------*/
+
+span {
+    color: darkgoldenrod;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+/*-------------------------------Navigation Bar-------------------------------*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+/*----------------------------------Headings----------------------------------*/
+
+h1 {
+    color: white;
+    font-size: 65px;
+}
+
+h2 {
+    color: white;
+    font-size: 55px;
+}
+
+h3 {
+    color: white;
+    font-size: 45px;
+}
+
+h4 {
+    color: white;
+    font-size: 35px;
+}
+
+h5 {
+    color: white;
+    font-size: 25px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+/*-----------------------------------Buttons----------------------------------*/
+
+/* Button no. 1*/
+
+.btn-1 {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.btn-1:hover {
+    color: darkgoldenrod;
+    transition: .4s;
+}
+
+.btn-1 {
+    transition: 1s;
+}
+
+
+/* Button no. 2*/
+
+.btn-2 {
+    background-color: darkgoldenrod;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.btn-2:hover {
+    background-color: transparent;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+
+/* Button no. 3 */
+
+/*----------------------------------------------------------------------------*/
+
+
+/*----------------------------------Scrollbar---------------------------------*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #1f1f1f;
+}
+::-webkit-scrollbar-thumb {
+    background: darkgoldenrod;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(121, 89, 7);
+}
+
+/*----------------------------------------------------------------------------*/
